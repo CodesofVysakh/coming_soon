@@ -34,6 +34,20 @@
  *
  * =================================================================== */
 
+ /* =================================================================== 
+  User Fonts
+  * ------------------------------------------------------------------- */
+
+/* @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter/Inter-Light.woff2') format('woff2'),
+         url('../fonts/inter/Inter-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+  /*=================================================================== */
+
 
 /* ===================================================================
  * # base style overrides - (_document-setup.scss)
@@ -58,7 +72,8 @@ body {
 
 body {
   background: #111111;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: 'Inter'; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -95,7 +110,8 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "domine-regular", serif;
+  /* font-family: 'Inter'; */
+  font-family: 'Inter', sans-serif;
   color: #000000;
   font-style: normal;
   font-weight: normal;
@@ -171,7 +187,8 @@ p img {
 }
 
 p.lead {
-  font-family: "metropolis-light", sans-serif;
+  /* font-family: ' Inter',"metropolis-light", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.8;
@@ -198,12 +215,14 @@ b {
 
 em,
 i {
-  font-family: "metropolis-italic", sans-serif;
+  /* font-family: " Inter", "metropolis-italic", sans-serif; */
+  font-family: 'Inter', sans-serif;
 }
 
 strong,
 b {
-  font-family: "metropolis-bold", sans-serif;
+  /* font-family: " Inter", "metropolis-bold", sans-serif; */
+  font-family: 'Inter', sans-serif;
 }
 
 small {
@@ -223,14 +242,16 @@ blockquote:before {
   line-height: 0px;
   margin: 0;
   color: rgba(0, 0, 0, 0.25);
-  font-family: arial, sans-serif;
+  /* font-family: " Inter", arial, sans-serif; */
+  font-family: 'Inter', sans-serif;
   position: absolute;
   top: 3.6rem;
   left: 0;
 }
 
 blockquote p {
-  font-family: "domine-regular", serif;
+  /* font-family: " Inter", "domine-regular", serif; */
+  font-family: 'Inter', sans-serif;
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
@@ -239,7 +260,8 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "domine-regular", serif;
+  /* font-family: " Inter", "domine-regular", serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -256,7 +278,8 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "metropolis-bold", sans-serif;
+  /* font-family: " Inter", "metropolis-bold", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
@@ -268,7 +291,8 @@ kbd,
 samp,
 code,
 pre {
-  font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+  /* font-family: " Inter", Consolas, "Andale Mono", Courier, "Courier New", monospace; */
+  font-family: 'Inter', sans-serif;
 }
 
 pre {
@@ -422,7 +446,8 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
 }
 
 th,
@@ -434,7 +459,8 @@ td {
 
 th {
   color: #000000;
-  font-family: "domine-bold", serif;
+  /* font-family: " Inter", "domine-bold", serif; */
+  font-family: 'Inter', sans-serif;
 }
 
 td {
@@ -630,7 +656,8 @@ select {
   border: 0;
   outline: none;
   color: #151515;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -711,7 +738,8 @@ select:focus {
 
 label,
 legend {
-  font-family: "metropolis-semibold", sans-serif;
+  /* font-family: " Inter", "metropolis-semibold", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
   font-weight: normal;
   margin-bottom: .9rem;
@@ -728,7 +756,8 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   line-height: inherit;
 }
@@ -793,7 +822,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "metropolis-semibold", sans-serif;
+  /* font-family: " Inter", "metropolis-semibold", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -920,7 +950,8 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "metropolis-bold", sans-serif;
+  /* font-family: " Inter", "metropolis-bold", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   line-height: 6rem;
   text-indent: 0;
@@ -998,7 +1029,8 @@ input::-moz-focus-inner {
   height: 1em;
   position: absolute;
   font-size: 10rem;
-  font-family: Arial, Sans-Serif;
+  /* font-family: " Inter", Arial, Sans-Serif; */
+  font-family: 'Inter', sans-serif;
   color: rgba(0, 0, 0, 0.25);
 }
 
@@ -1055,7 +1087,8 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "metropolis-bold", sans-serif;
+  /* font-family: " Inter", "metropolis-bold", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   border: none;
   color: #000000;
@@ -1069,7 +1102,8 @@ input::-moz-focus-inner {
   display: block;
   margin: .6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   color: #828282;
 }
 
@@ -1226,11 +1260,12 @@ input::-moz-focus-inner {
 .home-logo {
   z-index: 502;
   display: block;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  right: 60px;
-  top: 15px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 30px 0;
+  /* position: absolute;
+  left: 130px;
+  top: 15px; */
 }
 
 
@@ -1245,8 +1280,8 @@ input::-moz-focus-inner {
 }
 
 .home-logo img {
-  width: 100px;
-  height: 125;
+  width: 180px;
+  /* height: 125; */
 }
 
 
@@ -1257,13 +1292,14 @@ input::-moz-focus-inner {
   display: table-cell;
   width: 100%;
   height: 100%;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   padding-bottom: 6rem;
   position: relative;
 }
 
 .home-content h3 {
-  font-family: "metropolis-medium", sans-serif;
+  /* font-family: "Inter"; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
   text-transform: uppercase;
@@ -1275,7 +1311,7 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.home-content h3::before {
+.home-content .decoration-line::before {
   content: "";
   display: block;
   background-color: rgba(37, 200, 206, 0.6);
@@ -1292,10 +1328,11 @@ input::-moz-focus-inner {
   margin-top: 0;
   color: #FFFFFF;
   letter-spacing: 0;
+  width: 90%;
 }
 
 .home-content__main {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   padding-top: 15rem;
   position: relative;
   overflow: hidden;
@@ -1364,7 +1401,8 @@ input::-moz-focus-inner {
 
 #mc-form label {
   color: #FFFFFF;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.3rem;
   padding: 0 2rem;
 }
@@ -1385,7 +1423,8 @@ input::-moz-focus-inner {
 
 .home-content__counter .time {
   color: #FFFFFF;
-  font-family: "metropolis-light", sans-serif;
+  /* font-family: " Inter", "metropolis-light", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 3rem;
   line-height: 1;
   display: inline-block;
@@ -1400,11 +1439,18 @@ input::-moz-focus-inner {
   font-size: 2rem;
   position: absolute;
   bottom: 0;
-  right: 0;
+  /* right: 0; */
+  left: auto;
+}
+
+.home-content__counter .time .days-span {
+  /* right: -7px; */
+  padding: 0;
 }
 
 .home-content__counter .days {
-  font-family: "metropolis-extralight", sans-serif;
+  /* font-family: " Inter", "metropolis-extralight", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 17.5rem;
   letter-spacing: -.5rem;
   padding-right: 6rem;
@@ -1413,9 +1459,10 @@ input::-moz-focus-inner {
 
 .home-content__counter .days span {
   display: inline-block;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   letter-spacing: 0;
-  background-color: #190fa9;
+  /* background-color: #190fa9; */
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1437,7 +1484,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .home-social {
   list-style: none;
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -1640,11 +1688,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1500px) {
   .home-content h1 {
-    font-size: 5.8rem;
+    font-size: 45px;
   }
 
   .home-content__main {
-    max-width: 1200px;
+    /* max-width: 1200px; */
   }
 
   .home-content__text p {
@@ -1674,15 +1722,15 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-logo {
-    right: 35px;
+    /* right: 35px; */
   }
 
   .home-content h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
   }
 
   .home-content__main {
-    max-width: 1000px;
+    /* max-width: 1000px; */
   }
 
   .home-content__text p {
@@ -1753,11 +1801,11 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content h1 {
-    font-size: 4.2rem;
+    font-size: 40px;
   }
 
   .home-content__main {
-    max-width: 900px;
+    /* max-width: 900px; */
   }
 
   .home-content__text {
@@ -1793,17 +1841,18 @@ html.no-csstransitions .home-content__main {
 
   .home-content {
     overflow-y: auto;
+    padding-bottom: 0;
   }
 
-  .home-content {
-    padding-bottom: 0;
+  .home-content__main {
+    padding-top: 5rem;
   }
 
   .home-content br {
     display: none;
   }
 
-  .home-content__main,
+  /* .home-content__main, */
   .home-copyright {
     max-width: 700px;
   }
@@ -1819,6 +1868,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content__text {
     padding-right: 60px;
+    width: 90% !important;
     margin-bottom: 7.2rem;
   }
 
@@ -1841,13 +1891,19 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:800px) {
-  .home-content__main,
+  /* .home-content__main, */
   .home-copyright {
     max-width: 600px;
   }
 
+  .home-content__main {
+    padding-top: 30px;
+  }
+
   .home-content__text {
     padding-right: 15px;
+    width: 100% !important;
+    margin-bottom: 30px;
   }
 
   .home-content__counter {
@@ -1866,10 +1922,10 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:700px) {
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 35px;
   }
 
-  .home-content__main,
+  /* .home-content__main, */
   .home-copyright {
     max-width: 490px;
   }
@@ -1896,7 +1952,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content h1 {
-    font-size: 3.6rem;
+    font-size: 33px;
   }
 
   .home-content__text {
@@ -1929,23 +1985,32 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:500px) {
   .s-home {
     min-height: 642px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .home-content h3 {
     padding-left: 0;
   }
-
+  .home-content .decoration-line::before,
   .home-content h3::before {
     display: none;
   }
 
+  .home-logo {
+    padding-bottom: 0;
+  }
+
   .home-content h1 {
-    font-size: 3.3rem;
+    font-size: 30px;
+    width: 100% !important;
+  }
+
+  .home-content__text {
+    width: 100% !important;
   }
 
   .home-content__main {
-    max-width: 420px;
+    /* max-width: 420px; */
   }
 
   #mc-form input[type="email"] {
@@ -1975,20 +2040,21 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-logo {
-    right: 30px;
+    /* right: 30px; */
   }
 
   .home-logo img {
-    width: 95px;
-    height: 80px;
+    /* width: 95px; */
+    /* height: 80px; */
   }
 
   .home-content h1 {
-    font-size: 3rem;
+    font-size: 25px;
   }
 
   .home-content__main {
-    max-width: auto;
+    /* max-width: auto; */
+    /* padding-top: 100px; */
   }
 
   .home-content__text {
@@ -2065,7 +2131,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-info h3 {
-  font-family: "metropolis-regular", sans-serif;
+  /* font-family: " Inter", "metropolis-regular", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
   color: #2de1ea;
@@ -2162,7 +2229,8 @@ html.no-csstransitions .home-content__main {
   z-index: 502;
   background-color: #ffffff05;
   border: 1px solid #ffffff;
-  font-family: "metropolis-medium", sans-serif;
+  /* font-family: " Inter", "metropolis-medium", sans-serif; */
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: .3rem;
